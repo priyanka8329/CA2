@@ -1,0 +1,164 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.left-nav {
+    width: 200px;
+    height: 100vh;
+    background-color: #8800dc;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.leftnav-item {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 4px 4px 4px 10px;
+}
+
+.leftnav-item>p {
+    margin-left: 10px;
+}
+
+.leftnav-item:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.top-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 10px;
+    background-color: #8800dc;
+    color: white;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.w-100vw {
+    width: calc(100vw - 237px);
+}
+
+.topnav-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.topnav-header>i,
+.user>p {
+    margin-left: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.page-card {
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    color: white;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.text-green{
+    color: lightgreen;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+.w-100{
+    width: 100%;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.border-btn{
+    background-color: white;
+    border: 1px lightgreen;
+    color: gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 100px; 
+      padding: 10px;
+}
+.header{
+    font-weight: 600;
+    color:lightseagreen;
+}
+
+.bg-aqua-green{
+    background-color: rgb(47 175 196);
+}
+
+.bg-aqua-red{
+    background-color: rgb(238 71 125);
+}
+
+.w-300{
+    width: 300px;
+}
